@@ -5,7 +5,9 @@
   </div>
   <div class="menu-toggle-wrap">
     <button class="menu-toggle" @click="ToggleMenu">
-      <span class="material-icons">keyboard_double_arrow_right</span>
+     <span class="material-icons">
+arrow_forward_ios
+</span>
     </button>
   </div>
   <h3>Menu</h3>
@@ -101,8 +103,8 @@ aside{
         }
       }
       &.router-link-exact-active {
-        background-color: var(--dark-alt);
-        border-right: 5px solid var(--primary);
+        background-color: #334155;
+        border-right: 5px solid #4ade80;
 
         .material-icons, .text {
           color: white;
